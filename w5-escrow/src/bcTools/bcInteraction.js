@@ -2,7 +2,8 @@ import { ethers } from "ethers"
 import escrowJson from "../Escrow.json"
 import escrowFactoryJson from "../EscrowFactory.json"
 
-const { REACT_APP_CONTRFACTORY_ADDRESS } = process.env
+//const { REACT_APP_CONTRFACTORY_ADDRESS } = process.env
+const REACT_APP_CONTRFACTORY_ADDRESS = "0x71F5d43B5a58E9F4656D1f2A3b883d22a7D4Db30"
 
 let provider, signer, contrFactory, contrFactoryAddress, selectedAddress
 

@@ -1,0 +1,22 @@
+{
+  "name": "w7-upgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "RS",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.1",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.8.2",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "dotenv": "^16.0.3"
+  }
+}

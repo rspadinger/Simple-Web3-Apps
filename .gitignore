@@ -13,6 +13,7 @@ coverage.json
 typechain
 .vscode
 .zip
+zzzZIP
 
 #Hardhat files
 cache
